@@ -7,13 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectMonitor", "ProjectMo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{51ABB9C2-5A91-49D0-BFD8-B373BF2D880B}"
 	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{06D6A75A-1F7D-46FD-A7A5-E348C3809A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{06D6A75A-1F7D-46FD-A7A5-E348C3809A9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{020AE28C-C605-4202-ABB9-54B7BC4C8125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{020AE28C-C605-4202-ABB9-54B7BC4C8125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

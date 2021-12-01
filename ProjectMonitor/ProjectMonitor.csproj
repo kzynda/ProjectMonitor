@@ -5,8 +5,6 @@
 	<TargetFramework>net6.0-windows</TargetFramework>
 	<Nullable>enable</Nullable>
 	<UseWPF>true</UseWPF>
-	<DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
-	<ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
