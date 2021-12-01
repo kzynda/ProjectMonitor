@@ -4,6 +4,6 @@ public class DummyClass : IDummyInteface
 {
 	public int DummyFunc(int i)
 	{
-		return i * 2;
+		return i * 1;
 	}
 }
